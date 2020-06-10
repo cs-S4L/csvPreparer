@@ -1,0 +1,44 @@
+/**
+	Breakpoints
+**/
+$sm: 420px;
+$md: 765px;
+$lg: 1000px;
+$xlg: 1200px;
+
+/**
+    Colors
+**/
+
+/**
+    Font-Sizes
+**/
+
+/**
+    Font-Weights
+**/
+
+/**
+    Sizes
+**/
+
+/**
+    Box-Shadows
+**/
+
+/**
+    Z-Indexes
+**/
+
+/**
+    Border-Radius
+**/
+
+/**
+	Mixins
+**/
+@mixin respond-to($media) {
+    @media only screen and (min-width: $media) {
+        @content;
+    }
+}
